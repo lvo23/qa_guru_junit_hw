@@ -32,13 +32,10 @@ public class F1NewsTests extends BaseTest {
         f1NewsPage.openPage().setWidgetVote(variant).submitButtonClick().checkVisibleSlider();
     }
 
-
-    @CsvSource(value = {
-            "2015, Статьи 2015",
-            "2013, Статьи 2013"
-    })
+    @CsvSource(value = { "2015, Статьи 2015", "2013, Статьи 2013" })
     @ParameterizedTest(name = "Проверка заголовка {1} страницы статей {0} года")
     void checkTitleInChampionshipYearTest(int year, String title) {
+
         memuarPage.openPage().yearSelect(year).checkTitle(title);
     }
 

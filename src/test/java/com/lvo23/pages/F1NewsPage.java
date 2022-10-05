@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.open;
 import com.codeborne.selenide.SelenideElement;
 
 /**
- * @author Vlad Litvinov
+ * @author Vlad Litvinov главная страница новостей
  */
 public class F1NewsPage {
 
@@ -57,6 +57,11 @@ public class F1NewsPage {
         return this;
     }
 
+    /**
+     * проверка отображения слайдера после подтверждения выбора
+     * 
+     * @return F1NewsPage
+     */
     public F1NewsPage checkVisibleSlider() {
 
         itemSlider.shouldBe(visible);

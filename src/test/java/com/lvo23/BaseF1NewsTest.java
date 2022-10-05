@@ -7,7 +7,7 @@ import com.codeborne.selenide.Configuration;
 /**
  * @author Vlad Litvinov
  */
-public class BaseTest {
+public class BaseF1NewsTest {
     /**
      * метод сет-ап, который выполнится перед всеми тестами
      */

@@ -15,7 +15,7 @@ import com.lvo23.pages.TeamDriversPage;
 /**
  * @author Vlad Litvinov
  */
-public class F1NewsTests extends BaseTest {
+public class F1NewsTests extends BaseF1NewsTest {
 
     /**
      * Инициализация страницы с новостями

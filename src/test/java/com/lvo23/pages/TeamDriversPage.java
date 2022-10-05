@@ -14,7 +14,7 @@ public class TeamDriversPage {
     /**
      * Константа урла страницы статей
      */
-    private static final String REG_FORM_URL = "/Championship/2022/drivers.shtml";
+    private static final String DRIVERS_URL = "/Championship/2022/drivers.shtml";
 
     /**
      * Константа с текстом заголовка на странице
@@ -33,7 +33,7 @@ public class TeamDriversPage {
      */
     public TeamDriversPage openPage() {
 
-        open(REG_FORM_URL);
+        open(DRIVERS_URL);
         postTitle.shouldHave(text(TITLE_TEXT));
 
         return this;

@@ -1,4 +1,4 @@
-package com.lvo23;
+package com.lvo23.tests;
 
 import java.util.stream.Stream;
 
@@ -6,6 +6,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
+import com.lvo23.BaseChampionatTest;
 import com.lvo23.enums.Team;
 import com.lvo23.pages.ChampionatTeamsPage;
 

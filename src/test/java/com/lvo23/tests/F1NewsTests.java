@@ -1,4 +1,4 @@
-package com.lvo23;
+package com.lvo23.tests;
 
 import static com.codeborne.selenide.Selenide.$;
 
@@ -7,6 +7,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.EnumSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import com.lvo23.BaseF1NewsTest;
 import com.lvo23.enums.Team;
 import com.lvo23.pages.MemuarPage;
 import com.lvo23.pages.F1NewsPage;
